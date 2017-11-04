@@ -1,5 +1,6 @@
 package com.example.jesve.reto1_hackspace;
 
+import android.graphics.Paint;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -44,6 +45,9 @@ public class SecondActivity extends AppCompatActivity implements View.OnClickLis
                 Toast.makeText(getApplicationContext(), "Terminos de Servicios",Toast.LENGTH_SHORT).show();
             }
         });
+
+        //Subrayar el Texto "Terms of services"
+        terms.setPaintFlags(terms.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
     }
 
     @Override

@@ -103,7 +103,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/Checkbox_agree"
             android:paddingLeft="30dp"
-            android:text="Terms of service"
+            android:text="Terms of Service"
             android:textColor="@color/colorButtonLoginIn"
             android:textSize="10sp" />
 
