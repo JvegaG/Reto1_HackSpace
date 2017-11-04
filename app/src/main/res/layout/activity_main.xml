@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.jesve.reto1_hackspace.MainActivity"
-    android:background="@drawable/megapolis_nights">
+    android:background="@drawable/megapolis_nights"
+    android:fitsSystemWindows="true">
 
     <!-- Help Button -->
     <Button
