@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#B8BECC</color>
+    <color name="colorButtonLoginIn">#4595E6</color>
+    <color name="colorButtonSingUp">#3DB4CC</color>
+    <color name="TextColorButton">#F5F5F5</color>
+    <color name="colorBackground">#FFFFFF</color>
+</resources>

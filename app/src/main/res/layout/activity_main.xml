@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jesve.reto1_hackspace.MainActivity"
+    android:background="@drawable/megapolis_nights">
+
+    <!-- Help Button -->
+    <Button
+        android:id="@+id/btn_help"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Help"
+        android:textColor="@color/colorAccent"
+        android:paddingBottom="20dp"/>
+
+    <RelativeLayout
+        android:layout_width="250dp"
+        android:layout_height="500dp"
+        android:layout_centerInParent="true">
+
+        <!-- 1st EditText - e-mail -->
+        <EditText
+            android:id="@+id/edt_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/colorAccent"
+            android:textColor="@color/colorAccent"
+            android:hint="@string/email"
+            android:textSize="15sp"/>
+
+        <!-- 2nd EdiText - Password-->
+        <EditText
+            android:id="@+id/edt_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:hint="@string/password"
+            android:textColorHint="@color/colorAccent"
+            android:textColor="@color/colorAccent"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:textSize="15sp"
+            android:layout_below="@id/edt_email"
+            android:paddingTop="20dp"/>
+
+        <!-- 1st Button - Log in -->
+        <Button
+            android:id="@+id/btn_loginIn"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Log In"
+            android:textSize="16sp"
+            android:layout_below="@id/edt_password"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/colorButtonLoginIn"
+            android:textColor="@color/TextColorButton"/>
+
+        <!-- 2nd Button - Sing up -->
+        <Button
+            android:id="@+id/btn_singUp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Sing Up"
+            android:textSize="16sp"
+            android:layout_below="@id/btn_loginIn"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="@color/colorButtonSingUp"
+            android:textColor="@color/TextColorButton"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
